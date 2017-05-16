@@ -4,12 +4,17 @@
     "description": "Flask snippets",
     "version": "0.0.1",
     "publisher": "cstrap",
+    "icon": "images/flask.png",
     "engines": {
         "vscode": "^1.12.0"
     },
     "categories": [
         "Snippets"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cstrap/flask-snippets.git"
+    },
     "contributes": {
         "snippets": [
             {

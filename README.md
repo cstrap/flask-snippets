@@ -10,6 +10,6 @@ Snippets for Flask framework
 
 Last changes, see changelog for the complete reference.
 
-### 0.0.1
+### 0.0.2
 
-Initial release: PyCharm snippets
+- public repo at [GitHub](https://github.com/cstrap/flask-snippets), feel free to contribute! :-)
