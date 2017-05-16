@@ -1,0 +1,29 @@
+{
+    "Flask route": {
+        "prefix": "route",
+        "body": [
+            "@app.route('/${1:route_name}')",
+            "def ${2:method_name}():",
+            "   pass$0"
+        ],
+        "description": "Flask route function"
+    },
+    "Flask route GET, POST": {
+        "prefix": "routegp",
+        "body": [
+            "@app.route('/${1:route_name}', methods=['GET', 'POST'])",
+            "def ${2:method_name}():",
+            "   pass$0"
+        ],
+        "description": "Flask route with GET and POST"
+    },
+    "Flask route POST only": {
+        "prefix": "routegp",
+        "body": [
+            "@app.route('/${1:route_name}', methods=['POST'])",
+            "def ${2:method_name}():",
+            "   pass$0"
+        ],
+        "description": "Flask route POST only"
+    }
+}
