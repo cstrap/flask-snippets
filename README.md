@@ -4,7 +4,11 @@ Flask snippets collections, ported from PyCharm, TextMate, SublimeText and other
 
 ## Features
 
-Snippet for Flask framework
+Snippets for Flask framework
+
+## Release Notes
+
+Last changes, see changelog for the complete reference.
 
 ### 0.0.1
 
