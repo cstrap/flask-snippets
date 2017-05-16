@@ -2,7 +2,7 @@
     "name": "flask-snippets",
     "displayName": "flask-snippets",
     "description": "Flask snippets",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "cstrap",
     "icon": "images/flask.png",
     "engines": {
