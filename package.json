@@ -23,10 +23,6 @@
             },
             {
                 "language": "python",
-                "path": "./snippets/pycharm.json"
-            },
-            {
-                "language": "python",
                 "path": "./snippets/controls.json"
             },
             {
