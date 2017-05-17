@@ -1,0 +1,74 @@
+{
+    "Flask Expresion": {
+        "prefix": "fexp",
+        "body": "{{ ${1:foo.bar} }}$0"
+    },
+    "Flask Filter": {
+        "prefix": "ffilter",
+        "body": "{{ ${1:foo.bar}|${2:filter} }}$0"
+    },
+    "Flask Comment": {
+        "prefix": "fcomment",
+        "body": "{# \n\t${1:comment} \n#}$0"
+    },
+    "Flask Block": {
+        "prefix": "fblock",
+        "body": "{% ${1:block} ${2:foo} %}$3{% end${1:block} %}\n$0"
+    },
+    "Flask Extends": {
+        "prefix": "fextends",
+        "body": "{% extends ${1:layout_template} %}\n\n$0"
+    },
+    "Flask Self": {
+        "prefix": "fself",
+        "body": "{{ self.${1:block_name}() }}$0"
+    },
+    "Flask Super": {
+        "prefix": "fsuper",
+        "body": "{{ self.supper() }}$0"
+    },
+    "Flask For": {
+        "prefix": "ffor",
+        "body": "{% for ${1:element} in ${2:collection} %}\n\t\t$3{{ ${1:element}|e }}$4\n{% endfor %}\n$0"
+    },
+    "Flask If": {
+        "prefix": "fif",
+        "body": "{% if ${1:expression} %}\n\t\t${2:blockofcode}\n{% endif %}\n$0"
+    },
+    "Flask Ife": {
+        "prefix": "fife",
+        "body": "{% if ${1:expression} %}\n\t\t${2:blockofcode}\n{% else %}\n\t\t${3:blockofcode}\n{% endif %}\n$0"
+    },
+    "Flask Elif": {
+        "prefix": "felif",
+        "body": "{% if ${1:expression} %}\n\t\t${2:blockofcode}\n{% elif ${3:expression2} %}\n\t\t${4:blockofcode}\n{% else %}\n\t\t${5:blockofcode}\n{% endif %}\n$0"
+    },
+    "Flask Macro": {
+        "prefix": "fmacro",
+        "body": "{% macro ${1:expression} -%}\n\t\t${2:blockofcode}\n{%- endmacro %}$0"
+    },
+    "Flask Filter Block": {
+        "prefix": "ffb",
+        "body": "{% filter ${1:foo} %}\n\t\t${2:blockofcode}\n{% endfilter %}$0"
+    },
+    "Flask Set": {
+        "prefix": "fset",
+        "body": "{% set ${1:expression} %}$0"
+    },
+    "Flask Include": {
+        "prefix": "finclude",
+        "body": "{% include \"${1:template}\" %}$0"
+    },
+    "Flask Import": {
+        "prefix": "fimport",
+        "body": "{% import \"${1:template}\" as ${2:alias} %}\n$0"
+    },
+    "Flask Autoescape": {
+        "prefix": "fautoescape",
+        "body": "{% autoescape ${1:true} %}\n\t\t${2:blockofcode}\n{% endautoescape %}\n$0"
+    },
+    "Flask url": {
+        "prefix": "furl",
+        "body": "{{ url_for(\"${1:template}\") }}$0"
+    }
+}
