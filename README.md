@@ -6,10 +6,13 @@ Flask snippets collections, ported from PyCharm, TextMate, SublimeText and other
 
 Snippets for Flask framework
 
+Public repo on [GitHub](https://github.com/cstrap/flask-snippets), feel free to contribute! :-)
+
 ## Release Notes
 
-Last changes, see changelog for the complete reference.
+## [0.0.3]
 
-### 0.0.2
+- [flask-snippets](https://github.com/jleonra/flask-snippets) ported from Atom
+- Splitting snippets into category files
 
-- public repo on [GitHub](https://github.com/cstrap/flask-snippets), feel free to contribute! :-)
+See [changelog](CHANGELOG.md) for all changes and releases.

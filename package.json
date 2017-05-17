@@ -2,7 +2,7 @@
     "name": "flask-snippets",
     "displayName": "flask-snippets",
     "description": "Flask snippets",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "cstrap",
     "icon": "images/flask.png",
     "engines": {
@@ -19,7 +19,19 @@
         "snippets": [
             {
                 "language": "python",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/base.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/pycharm.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/controls.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/templates.json"
             }
         ]
     }
