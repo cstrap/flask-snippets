@@ -11,31 +11,31 @@
         "prefix": "fapp",
         "body": "from flask import Flask, render_template\napp = Flask(__name__)\n\n\n@app.route('${1:/}')\ndef ${2:index}():\n    return render_template('${3:index}.html')\n\nif __name__ == '__main__':\n  app.run(host:'${4:127.0.0.1}', port=${5:8000}, debug=${6:True})\n$0 $0"
     },
-    "Flask Route": {
+    "Flask route": {
         "prefix": "froute",
         "body": "@app.route('${1:path}')\ndef ${2:func_name}(${3:foo}):\n    return render_template('${4:expression}')$0"
     },
-    "URL Generator": {
+    "URL generator": {
         "prefix": "furl",
         "body": "url_for('${1:foo}'$2)$0"
     },
-    "URL Methods": {
+    "URL methods": {
         "prefix": "fmeth",
         "body": "methods=['GET', 'POST']$0"
     },
-    "Render Template": {
+    "Render template": {
         "prefix": "frt",
         "body": "render_template('${1:page}.html', ${2:foo}=${3:bar})$0"
     },
-    "Test Request": {
+    "Test request": {
         "prefix": "ftreq",
         "body": "with app.test_request_context('${1:path}', method='${2:POST}'):\n\t\tassert request.path == '${1:path}'\n\t\tassert.method == '${2:POST}'\n$0"
     },
-    "Flask Upload": {
+    "Flask upload": {
         "prefix": "fup",
         "body": "@app.route('${1:/upload}', methods=['GET', 'POST'])\ndef ${2:upload_file}():\n    if request.method == 'POST':\n        ${3:f} = request.files['${4:the_file}']\n        ${3:f}.save('${6:/path/to/save/}${4:the_file}.${5:txt}')\n$0"
     },
-    "Secure Upload": {
+    "Secure upload": {
         "prefix": "fsup",
         "body": "from werkzeug.utils import secure_filename\n\n@app.route('${1:/upload}', methods=['GET', 'POST'])\ndef ${2:upload_file}():\n    if request.method == 'POST':\n        ${3:f} = request.files['${4:the_file}']\n        ${3:f}.save('${5:/path/to/save/}' + secure_filename(${3:f}.filename))$0"
     },
@@ -47,7 +47,7 @@
         "prefix": "fsc",
         "body": "${1:foo} = make_response(${2:expression})\n${1:foo}.set_cookie('${3:key}', '${4:value}')\nreturn ${1:foo}\n$0"
     },
-    "Error Handler": {
+    "Error handler": {
         "prefix": "feh",
         "body": "@app.errorhandler(${1:404})\ndef ${2:bar}(error):\n\t\treturn render_template('${3:error.html}'), ${1:404}\n$0"
     },

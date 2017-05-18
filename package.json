@@ -2,7 +2,7 @@
     "name": "flask-snippets",
     "displayName": "flask-snippets",
     "description": "Flask snippets",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "cstrap",
     "icon": "images/flask.png",
     "engines": {
@@ -10,6 +10,11 @@
     },
     "categories": [
         "Snippets"
+    ],
+    "keywords": [
+        "snippets",
+        "flask",
+        "python"
     ],
     "repository": {
         "type": "git",
