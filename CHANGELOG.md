@@ -2,6 +2,9 @@
 All notable changes to the "flask-snippets" extension will be documented in this file.
 
 ## [0.0.4]
+- Merged PR
+
+## [0.0.4]
 - Added abbreviations list with description on README file
 
 ## [0.0.3]
