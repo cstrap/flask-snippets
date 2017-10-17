@@ -21,7 +21,8 @@
         "url": "https://github.com/cstrap/flask-snippets.git"
     },
     "contributes": {
-        "snippets": [{
+        "snippets": [
+            {
                 "language": "python",
                 "path": "./snippets/base.json"
             },
