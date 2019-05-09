@@ -16,7 +16,7 @@ Thanks!
 | hw           | Flask hello world          |
 | route        | Flask route                |
 | routegp      | Flask route with GET, POST |
-| routegp      | Flask route POST only      |
+| routep      | Flask route POST only      |
 
 ### Controls snippets
 
