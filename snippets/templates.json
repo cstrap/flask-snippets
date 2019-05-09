@@ -63,6 +63,11 @@
         "prefix": "fimport",
         "body": "{% import \"${1:template}\" as ${2:alias} %}\n$0"
     },
+    "Flask from import": {
+        "prefix": "ffrom",
+        "body": "{% from '${1:template}.html' import ${2:object} %}\n$3",
+        "description": "flask from import"
+    },
     "Flask autoescape": {
         "prefix": "fautoescape",
         "body": "{% autoescape ${1:true} %}\n\t\t${2:blockofcode}\n{% endautoescape %}\n$0"
