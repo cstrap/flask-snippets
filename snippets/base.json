@@ -30,7 +30,7 @@
         ]
     },
     "Flask route POST only": {
-        "prefix": "routegp",
+        "prefix": "routep",
         "body": [
             "@app.route('/${1:route_name}', methods=['POST'])",
             "def ${2:method_name}():",
