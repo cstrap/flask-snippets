@@ -62,8 +62,4 @@ Thanks!
 
 ## Release Notes
 
-## [0.0.4]
-
-- Added abbreviations list with description on README file
-
 See [changelog](CHANGELOG.md) for all changes and releases.
