@@ -1,7 +1,7 @@
 {
     "ML docstring": {
         "prefix": "\"\"\"",
-        "body": "\"\"\"${1:sumary_line}\n\nKeyword arguments:\n${2:argument} -- ${3:description}\nReturn: ${4:return_description}\n\\\"\\\"\\\"\n$0"
+        "body": "\"\"\"${1:sumary_line}\n\nKeyword arguments:\n${2:argument} -- ${3:description}\nReturn: ${4:return_description}\n\"\"\"\n$0"
     },
     "SL docstring": {
         "prefix": "\"\"",
