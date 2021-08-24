@@ -9,7 +9,7 @@
     },
     "Flask App": {
         "prefix": "fapp",
-        "body": "from flask import Flask, render_template\napp = Flask(__name__)\n\n\n@app.route('${1:/}')\ndef ${2:index}():\n    return render_template('${3:index}.html')\n\nif __name__ == '__main__':\n  app.run(host='${4:127.0.0.1}', port=${5:8000}, debug=${6:True})\n$0 $0"
+        "body": "from flask import Flask, render_template\napp = Flask(__name__)\n\n\n@app.route('${1:/}')\ndef ${2:index}():\n    return render_template('${3:index}.html')\n\nif __name__ == '__main__':\n    app.run(host='${4:127.0.0.1}', port=${5:8000}, debug=${6:True})\n$0 $0"
     },
     "Flask route": {
         "prefix": "froute",
@@ -49,7 +49,7 @@
     },
     "Error handler": {
         "prefix": "feh",
-        "body": "@app.errorhandler(${1:404})\ndef ${2:bar}(error):\n\t\treturn render_template('${3:error.html}'), ${1:404}\n$0"
+        "body": "@app.errorhandler(${1:404})\ndef ${2:bar}(error):\n    return render_template('${3:error.html}'), ${1:404}\n$0"
     },
     "Flask logging": {
         "prefix": "flog",
