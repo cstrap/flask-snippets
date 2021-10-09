@@ -75,5 +75,17 @@
     "Flask url": {
         "prefix": "furl",
         "body": "{{ url_for(\"${1:template}\") }}$0"
+    },
+    "Flask title": {
+        "prefix": "ftitle",
+        "body": "{% block title %}\n\t${1:name}\n{% endblock %}"
+    },
+    "Flask var": {
+        "prefix": "fvar",
+        "body": "{{${1:Name var}}}"
+    },
+    "Flask content block": {
+        "prefix": "fcontent",
+        "body": "{% block content %}\n\t${1:Some content}\n{% endblock %}"
     }
 }
