@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "flask-snippets" extension will be documented in this file.
 
+## [0.1.3]
+
+- Merged PR #15
 ## [0.1.2]
 - Merged some PRs. Many thanks for all contributors!
 

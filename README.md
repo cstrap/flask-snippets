@@ -41,7 +41,7 @@ Thanks!
 
 | Abbreviation | Description        |
 |--------------|--------------------|
-| fexp         | Flask expresion    |
+| fexp         | Flask expression   |
 | ffilter      | Flask filter       |
 | fcomment     | Flask comment      |
 | fblock       | Flask block        |
@@ -59,6 +59,9 @@ Thanks!
 | fimport      | Flask import       |
 | fautoescape  | Flask autoescape   |
 | furl         | Flask url          |
+| ftitle       | Flask title        |
+| fvar         | Flask var          |
+| fcontent     | Flask content      |
 
 ## Release Notes
 
