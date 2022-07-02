@@ -25,7 +25,7 @@
     },
     "Flask super": {
         "prefix": "fsuper",
-        "body": "{{ self.supper() }}$0"
+        "body": "{{ self.super() }}$0"
     },
     "Flask for": {
         "prefix": "ffor",
